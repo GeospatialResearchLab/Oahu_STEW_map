@@ -1,10 +1,10 @@
 # Oʻahu STEW Organization Map Data Package
 
-This repository contains a Leaflet web map and supporting GeoJSON layers for Oʻahu organizations from The Stewardship Mapping Project (STEW).
+This repository contains a Leaflet web map and supporting GeoJSON layers for Oʻahu organizations from the Stewardship Mapping Project (STEW).
 
 ## Contents
 
-- `map.html`
+- `index.html`
   - Standalone interactive map for viewing and filtering organizations.
 
 - `data/`
@@ -13,14 +13,14 @@ This repository contains a Leaflet web map and supporting GeoJSON layers for Oʻ
 
 ## Data Processing Note
 
-The GeoJSON layers in this package were created by joining The Stewardship Mapping Project survey data with the corresponding GIS layer, then exporting:
+The GeoJSON layers in this package were created by joining Stewardship Mapping Project survey data with the corresponding GIS layer, then exporting:
 
 - one all-organizations layer (`org_data.geojson`), and
 - one layer per organization (individual `.geojson` files).
 
 ## How to Use
 
-1. Open `map.html` in a web browser.
+1. Open `index.html` in a web browser.
 2. Use the organization checklist in the left panel to toggle layers on/off.
 3. Click map polygons to view organization details.
 
