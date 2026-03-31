@@ -7,7 +7,7 @@ This repository contains a Leaflet web map and supporting GeoJSON layers for Oʻ
 - `map.html`
   - Standalone interactive map for viewing and filtering organizations.
 
-- `Oahu_GIS_files/data/`
+- `data/`
   - `org_data.geojson`: combined GeoJSON layer containing all organizations.
   - Individual organization GeoJSON files: one file per organization.
 
